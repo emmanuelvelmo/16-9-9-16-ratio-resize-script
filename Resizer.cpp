@@ -62,6 +62,5 @@ int main()
     std::cout << "X axis differences: " << ((ancho_in - ancho_aj) / 2) << std::endl;
     std::cout << "Y axis differences: " << ((alto_in - alto_aj) / 2);
     
-
     return 0;
 }
