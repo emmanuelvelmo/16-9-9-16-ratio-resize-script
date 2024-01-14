@@ -57,10 +57,10 @@ int main()
         alto_aj -= 1.0f;
     }
     
-    std::cout << "Input:  " << ancho_in << "×" << alto_in << " | Ratio: " << float(ancho_in / alto_in) << std::endl;
+    std::cout << "Input: " << ancho_in << "×" << alto_in << " | Ratio: " << float(ancho_in / alto_in) << std::endl;
     std::cout << "Output: " << ancho_aj << "×" << alto_aj << " | Ratio: " << float(ancho_aj / alto_aj) << std::endl;
-    std::cout << "X axis differences: " << ((ancho_in - ancho_aj) / 2) << std::endl;
-    std::cout << "Y axis differences: " << ((alto_in - alto_aj) / 2);
+    std::cout << "X axis differences: " << (ancho_in - ancho_aj) << " | Value of each space (2 spaces): " << ((ancho_in - ancho_aj) / 2) << std::endl;
+    std::cout << "Y axis differences: " << (alto_in - alto_aj) << " | Value of each space (2 spaces): " << ((alto_in - alto_aj) / 2);
     
     return 0;
 }
