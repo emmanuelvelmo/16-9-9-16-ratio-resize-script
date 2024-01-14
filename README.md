@@ -5,9 +5,9 @@
   <br/>
   Output: 3456×1943 | Ratio: 1.77869
   <br/>
-  X axis differences: 0
+  X axis difference: 0 | Value of each space (2 spaces): 0
   <br/>
-  Y axis differences: 440
+  Y axis difference: 880 | Value of each space (2 spaces): 440
 </p>
 
 <p align="left">
